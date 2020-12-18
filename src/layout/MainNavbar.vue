@@ -2,8 +2,8 @@
   <navbar
     position="fixed"
     type="primary"
-    :transparent="transparent"
-    :color-on-scroll="colorOnScroll"
+    class="top-nav-bar"
+    :transparent="false"
     menu-classes="ml-auto"
   >
     <template>
@@ -186,4 +186,16 @@ export default {
 };
 </script>
 
-<style scoped></style>
+<style scoped>
+  .navbar {
+    background-color: #B59B53 !important;
+  }
+
+  .navbar-brand {
+    color: #fff !important;
+  }
+
+  .navbar .nav-link {
+    color: #fff !important;
+  }
+</style>

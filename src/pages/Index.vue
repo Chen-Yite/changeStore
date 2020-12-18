@@ -1,112 +1,243 @@
 <template>
   <div>
-    <div class="page-header clear-filter" filter-color="orange">
-      <!-- <parallax
+    <div class="page-header page-header-small">
+      <parallax
         class="page-header-image"
-        style="background-image:url('img/header.jpg')"
+        style="background-image: url('img/bg6.jpg')"
       >
-      </parallax> -->
-      <div class="container">
-        <div class="content-center brand">
-          <img class="n-logo" src="img/now-logo.png" alt="" />
-          <h1 class="h1-seo">Now UI Kit.</h1>
-          <h3>A beautiful Bootstrap 4 UI kit. Yours free.</h3>
+      </parallax>
+      <div class="content-center">
+        <div class="container">
+          <h1 class="title">億豐找換店，人民幣港幣找換</h1>
+          <div class="text-center">
+            <a href="#pablo" class="btn btn-primary btn-icon btn-round btn-whatsapp">
+              <i class="fab fa-whatsapp"></i>
+            </a>
+          </div>
         </div>
-        <h6 class="category category-absolute">
-          Designed by
-          <a href="http://invisionapp.com/" target="_blank">
-            <img src="img/invision-white-slim.png" class="invision-logo" /> </a
-          >. Coded by
-          <a href="https://www.creative-tim.com" target="_blank">
-            <img
-              src="img/creative-tim-white-slim2.png"
-              class="creative-tim-logo"
-            /> </a
-          >.
-        </h6>
       </div>
     </div>
-    <div class="main">
-      <div class="section section-images">
-        <div class="container">
+    <div class="section section-about-us">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 ml-auto mr-auto text-center">
+            <h2 class="title"></h2>
+            <h5 class="description">
+              億豐找換店專注為你服務。我們設站找換店在葵涌廣場，專盛為大家提供最優質的人民幣對港幣找換。跟貼最新最合新的滙價，以達到最佳的找換服務。
+            </h5>
+          </div>
+        </div>
+        <div class="separator separator-primary"></div>
+        <div class="section-story-overview">
           <div class="row">
-            <div class="col-md-12">
-              <div class="hero-images-container">
-                <img src="img/hero-image-1.png" alt="" />
+            <div class="col-md-6">
+              <div
+                class="image-container image-left"
+                style="background-image: url('img/login.jpg')"
+              >
+                <!-- First image on the left side -->
+                <!-- <p class="blockquote blockquote-primary">
+                  "Over the span of the satellite record, Arctic sea ice has
+                  been declining significantly, while sea ice in the
+                  Antarctichas increased very slightly"
+                  <br />
+                  <br />
+                  <small>-NOAA</small>
+                </p> -->
               </div>
-              <div class="hero-images-container-1">
-                <img src="img/hero-image-2.png" alt="" />
-              </div>
-              <div class="hero-images-container-2">
-                <img src="img/hero-image-3.png" alt="" />
-              </div>
+              <!-- Second image on the left side of the article -->
+              <div
+                class="image-container"
+                style="background-image: url('img/bg3.jpg')"
+              ></div>
+            </div>
+            <div class="col-md-5">
+              <!-- First image on the right side, above the article -->
+              <div
+                class="image-container image-right"
+                style="background-image: url('img/bg1.jpg')"
+              ></div>
+              <h3>
+                找換店位置方便，在葵涌廣場地下，地鐵站B2 出口右轉斜對。
+              </h3>
+              <p>
+                The Arctic Ocean freezes every winter and much of the sea-ice
+                then thaws every summer, and that process will continue whatever
+                happens with climate change. Even if the Arctic continues to be
+                one of the fastest-warming regions of the world, it will always
+                be plunged into bitterly cold polar dark every winter. And
+                year-by-year, for all kinds of natural reasons, there’s huge
+                variety of the state of the ice.
+              </p>
+              <p>
+                For a start, it does not automatically follow that a record
+                amount of ice will melt this summer. More important for
+                determining the size of the annual thaw is the state of the
+                weather as the midnight sun approaches and temperatures rise.
+                But over the more than 30 years of satellite records, scientists
+                have observed a clear pattern of decline, decade-by-decade.
+              </p>
+              <p>
+                The Arctic Ocean freezes every winter and much of the sea-ice
+                then thaws every summer, and that process will continue whatever
+                happens with climate change. Even if the Arctic continues to be
+                one of the fastest-warming regions of the world, it will always
+                be plunged into bitterly cold polar dark every winter. And
+                year-by-year, for all kinds of natural reasons, there’s huge
+                variety of the state of the ice.
+              </p>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <basic-elements></basic-elements>
-    <navigation></navigation>
-    <tabs-section></tabs-section>
-    <progress-pagination></progress-pagination>
-    <notifications></notifications>
-    <typography></typography>
-    <javascript-components></javascript-components>
-    <carousel-section></carousel-section>
-    <nucleo-icons-section></nucleo-icons-section>
-    <div class="section">
-      <div class="container text-center">
-        <div class="row justify-content-md-center">
-          <div class="col-md-12 col-lg-8">
-            <h2 class="title">Completed with examples</h2>
-            <h5 class="description">
-              The kit comes with three pre-built pages to help you get started
-              faster. You can change the text and images and you're good to go.
-              More importantly, looking at them will give you a picture of what
-              you can built with this powerful Bootstrap 4 ui kit.
-            </h5>
+    <!-- <div class="section section-team text-center">
+      <div class="container">
+        <h2 class="title">Here is our team</h2>
+        <div class="team">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="team-player">
+                <img
+                  src="img/avatar.jpg"
+                  alt="Thumbnail Image"
+                  class="rounded-circle img-fluid img-raised"
+                />
+                <h4 class="title">Romina Hadid</h4>
+                <p class="category text-primary">Model</p>
+                <p class="description">
+                  You can write here details about one of your team members. You
+                  can give more details about what they do. Feel free to add
+                  some <a href="#">links</a> for people to be able to follow
+                  them outside the site.
+                </p>
+                <a href="#pablo" class="btn btn-primary btn-icon btn-round"
+                  ><i class="fab fa-twitter"></i
+                ></a>
+                <a href="#pablo" class="btn btn-primary btn-icon btn-round"
+                  ><i class="fab fa-instagram"></i
+                ></a>
+                <a href="#pablo" class="btn btn-primary btn-icon btn-round"
+                  ><i class="fab fa-facebook-square"></i
+                ></a>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="team-player">
+                <img
+                  src="img/ryan.jpg"
+                  alt="Thumbnail Image"
+                  class="rounded-circle img-fluid img-raised"
+                />
+                <h4 class="title">Ryan Tompson</h4>
+                <p class="category text-primary">Designer</p>
+                <p class="description">
+                  You can write here details about one of your team members. You
+                  can give more details about what they do. Feel free to add
+                  some <a href="#">links</a> for people to be able to follow
+                  them outside the site.
+                </p>
+                <a href="#pablo" class="btn btn-primary btn-icon btn-round"
+                  ><i class="fab fa-twitter"></i
+                ></a>
+                <a href="#pablo" class="btn btn-primary btn-icon btn-round"
+                  ><i class="fab fa-linkedin"></i
+                ></a>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="team-player">
+                <img
+                  src="img/eva.jpg"
+                  alt="Thumbnail Image"
+                  class="rounded-circle img-fluid img-raised"
+                />
+                <h4 class="title">Eva Jenner</h4>
+                <p class="category text-primary">Fashion</p>
+                <p class="description">
+                  You can write here details about one of your team members. You
+                  can give more details about what they do. Feel free to add
+                  some <a href="#">links</a> for people to be able to follow
+                  them outside the site.
+                </p>
+                <a href="#pablo" class="btn btn-primary btn-icon btn-round"
+                  ><i class="fab fa-google-plus"></i
+                ></a>
+                <a href="#pablo" class="btn btn-primary btn-icon btn-round"
+                  ><i class="fab fa-youtube"></i
+                ></a>
+                <a href="#pablo" class="btn btn-primary btn-icon btn-round"
+                  ><i class="fab fa-twitter"></i
+                ></a>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-    <signup-form></signup-form>
-    <examples-section></examples-section>
-    <download-section></download-section>
+    </div> -->
+    <!-- <div class="section section-contact-us text-center">
+      <div class="container">
+        <h2 class="title">Want to work with us?</h2>
+        <p class="description">Your project is very important to us.</p>
+        <div class="row">
+          <div class="col-lg-6 text-center ml-auto mr-auto col-md-8">
+            <fg-input
+              class="input-lg"
+              placeholder="First Name..."
+              v-model="form.firstName"
+              addon-left-icon="now-ui-icons users_circle-08"
+            >
+            </fg-input>
+            <fg-input
+              class="input-lg"
+              placeholder="Email Here..."
+              v-model="form.email"
+              addon-left-icon="now-ui-icons ui-1_email-85"
+            >
+            </fg-input>
+            <div class="textarea-container">
+              <textarea
+                class="form-control"
+                name="name"
+                rows="4"
+                cols="80"
+                v-model="form.message"
+                placeholder="Type a message..."
+              ></textarea>
+            </div>
+            <div class="send-button">
+              <n-button type="primary" round block size="lg"
+                >Send Message</n-button
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> -->
   </div>
 </template>
 <script>
-import { Parallax } from '@/components';
-import BasicElements from './components/BasicElementsSection';
-import Navigation from './components/Navigation';
-import TabsSection from './components/Tabs';
-import ProgressPagination from './components/ProgressPagination';
-import Notifications from './components/Notifications';
-import Typography from './components/Typography';
-import JavascriptComponents from './components/JavascriptComponents';
-import CarouselSection from './components/CarouselSection';
-import NucleoIconsSection from './components/NucleoIconsSection';
-import SignupForm from './components/SignupForm';
-import ExamplesSection from './components/ExamplesSection';
-import DownloadSection from './components/DownloadSection';
-
+import { Button, FormGroupInput } from '@/components';
 export default {
   name: 'index',
   bodyClass: 'index-page',
   components: {
-    // Parallax,
-    BasicElements,
-    Navigation,
-    TabsSection,
-    ProgressPagination,
-    Notifications,
-    Typography,
-    JavascriptComponents,
-    CarouselSection,
-    NucleoIconsSection,
-    SignupForm,
-    ExamplesSection,
-    DownloadSection
+    [Button.name]: Button,
+    [FormGroupInput.name]: FormGroupInput
+  },
+  data() {
+    return {
+      form: {
+        firstName: '',
+        email: '',
+        message: ''
+      }
+    };
   }
 };
 </script>
-<style></style>
+<style>
+  .btn-whatsapp {
+    background-color: #24CD63 !important;
+  }
+</style>

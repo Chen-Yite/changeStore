@@ -29,10 +29,7 @@
           <div class="col-md-8 ml-auto mr-auto text-center">
             <h2 class="title"></h2>
             <h5 class="description">
-              According to the National Oceanic and Atmospheric Administration,
-              Ted, Scambos, NSIDClead scentist, puts the potentially record low
-              maximum sea ice extent tihs year down to low ice extent in the
-              Pacific and a late drop in ice extent in the Barents Sea.
+              億豐找換店專注為你服務。我們設站找換店在葵涌廣場，專盛為大家提供最優質的人民幣對港幣找換。跟貼最新最合新的滙價，以達到最佳的找換服務。
             </h5>
           </div>
         </div>
@@ -45,14 +42,14 @@
                 style="background-image: url('img/login.jpg')"
               >
                 <!-- First image on the left side -->
-                <p class="blockquote blockquote-primary">
+                <!-- <p class="blockquote blockquote-primary">
                   "Over the span of the satellite record, Arctic sea ice has
                   been declining significantly, while sea ice in the
                   Antarctichas increased very slightly"
                   <br />
                   <br />
                   <small>-NOAA</small>
-                </p>
+                </p> -->
               </div>
               <!-- Second image on the left side of the article -->
               <div
@@ -67,8 +64,7 @@
                 style="background-image: url('img/bg1.jpg')"
               ></div>
               <h3>
-                So what does the new record for the lowest level of winter ice
-                actually mean
+                找換店位置方便，在葵涌廣場地下，地鐵站B2 出口右轉斜對。
               </h3>
               <p>
                 The Arctic Ocean freezes every winter and much of the sea-ice
@@ -101,7 +97,7 @@
         </div>
       </div>
     </div>
-    <div class="section section-team text-center">
+    <!-- <div class="section section-team text-center">
       <div class="container">
         <h2 class="title">Here is our team</h2>
         <div class="team">
@@ -184,8 +180,8 @@
           </div>
         </div>
       </div>
-    </div>
-    <div class="section section-contact-us text-center">
+    </div> -->
+    <!-- <div class="section section-contact-us text-center">
       <div class="container">
         <h2 class="title">Want to work with us?</h2>
         <p class="description">Your project is very important to us.</p>
@@ -223,7 +219,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
   </div>
 </template>
 <script>
