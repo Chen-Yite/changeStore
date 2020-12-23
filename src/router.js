@@ -54,6 +54,12 @@ export default new Router({
       path: '/faq',
       name: 'faq',
       components: { default: FAQ, header: MainNavbar, footer: MainFooter },
+      props: {
+        header: { colorOnScroll: 400 },
+        footer: { backgroundColor: 'black' }
+      }
+    },
+    {
       path: '/about',
       name: 'about',
       components: { default: About, header: MainNavbar, footer: MainFooter },

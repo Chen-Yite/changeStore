@@ -31,7 +31,7 @@
       </li>
       <li class="nav-item">
         <router-link 
-          class="navbar-brand" to="/about-us">
+          class="navbar-brand" to="/about">
           關於
         </router-link>
       </li>
