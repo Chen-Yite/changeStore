@@ -34,136 +34,46 @@
         </a>
       </li> -->
       <li class="nav-item">
-        <a
-          class="nav-link"
-          rel="tooltip"
-          title="Follow us on Twitter"
-          data-placement="bottom"
-          href="https://twitter.com/CreativeTim"
-          target="_blank"
-        >
+        <router-link 
+          class="navbar-brand" to="/">
           Home
-        </a>
+        </router-link>
       </li>
       <li class="nav-item">
-        <a
-          class="nav-link"
-          rel="tooltip"
-          title="Follow us on Twitter"
-          data-placement="bottom"
-          href="https://twitter.com/CreativeTim"
-          target="_blank"
-        >
+        <router-link 
+          class="navbar-brand" to="/about-us">
           關於
-        </a>
+        </router-link>
       </li>
       <li class="nav-item">
-        <a
-          class="nav-link"
-          rel="tooltip"
-          title="Follow us on Twitter"
-          data-placement="bottom"
-          href="https://twitter.com/CreativeTim"
-          target="_blank"
-        >
+        <router-link 
+          class="navbar-brand" to="/faq">
           問題
-        </a>
+        </router-link>
       </li>
       <li class="nav-item">
-        <a
-          class="nav-link"
-          rel="tooltip"
-          title="Follow us on Twitter"
-          data-placement="bottom"
-          href="https://twitter.com/CreativeTim"
-          target="_blank"
-        >
-          聯絡
-        </a>
+        <router-link 
+          class="navbar-brand" to="/contact-us">
+          聯絡我們
+        </router-link>
       </li>
-      <!-- <drop-down
+      
+      <drop-down
         tag="li"
-        title="Components"
-        icon="now-ui-icons design_app"
+        :title="localization"
+        icon="now-ui-icons design_image"
         class="nav-item"
       >
         <nav-link to="/">
-          <i class="now-ui-icons business_chart-pie-36"></i> All components
+          ENG
         </nav-link>
-        <a
-          href="https://demos.creative-tim.com/vue-now-ui-kit/documentation"
-          target="_blank"
-          class="dropdown-item"
-        >
-          <i class="now-ui-icons design_bullet-list-67"></i> Documentation
-        </a>
+        <nav-link to="/">
+          繁體
+        </nav-link>
+        <nav-link to="/">
+          簡體
+        </nav-link>
       </drop-down>
-      <drop-down
-              tag="li"
-              title="Examples"
-              icon="now-ui-icons design_image"
-              class="nav-item"
-      >
-        <nav-link to="/landing">
-          <i class="now-ui-icons education_paper"></i> Landing
-        </nav-link>
-        <nav-link to="/login">
-          <i class="now-ui-icons users_circle-08"></i> Login
-        </nav-link>
-        <nav-link to="/profile">
-          <i class="now-ui-icons users_single-02"></i> Profile
-        </nav-link>
-      </drop-down> -->
-      <!-- <li class="nav-item">
-        <a
-          class="nav-link btn btn-neutral"
-          href="https://www.creative-tim.com/product/vue-now-ui-kit-pro"
-          target="_blank"
-        >
-          <i class="now-ui-icons arrows-1_share-66"></i>
-          <p>Upgrade to PRO</p>
-        </a>
-      </li> -->
-
-      <!-- <li class="nav-item">
-        <a
-          class="nav-link"
-          rel="tooltip"
-          title="Follow us on Twitter"
-          data-placement="bottom"
-          href="https://twitter.com/CreativeTim"
-          target="_blank"
-        >
-          <i class="fab fa-twitter"></i>
-          <p class="d-lg-none d-xl-none">Twitter</p>
-        </a>
-      </li>
-      <li class="nav-item">
-        <a
-          class="nav-link"
-          rel="tooltip"
-          title="Like us on Facebook"
-          data-placement="bottom"
-          href="https://www.facebook.com/CreativeTim"
-          target="_blank"
-        >
-          <i class="fab fa-facebook-square"></i>
-          <p class="d-lg-none d-xl-none">Facebook</p>
-        </a>
-      </li>
-      <li class="nav-item">
-        <a
-          class="nav-link"
-          rel="tooltip"
-          title="Follow us on Instagram"
-          data-placement="bottom"
-          href="https://www.instagram.com/CreativeTimOfficial"
-          target="_blank"
-        >
-          <i class="fab fa-instagram"></i>
-          <p class="d-lg-none d-xl-none">Instagram</p>
-        </a>
-      </li> -->
     </template>
   </navbar>
 </template>
@@ -178,10 +88,15 @@ export default {
     colorOnScroll: Number
   },
   components: {
-    // DropDown,
+    DropDown,
     Navbar,
-    // NavLink,
+    NavLink,
     [Popover.name]: Popover
+  },
+  data() {
+    return {
+      localization: 'ENG'
+    }
   }
 };
 </script>

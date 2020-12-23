@@ -14,6 +14,16 @@
               <i class="fab fa-whatsapp"></i>
             </a>
           </div>
+          <br />
+          <div class="text-center money-exchange-logos">
+            <div class="logo-left">
+              <img src="../assets/img/HongKongCustoms.svg" style="width: 5vw; height:5vh;" />
+              <div>金錢服務經營者</div>
+            </div>
+            <div class="logo-right">
+              <img src="../assets/img/mso_hk_custom.png" style="margin-left:2vw; width: 9vw; height:5vh;" />
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -239,5 +249,9 @@ export default {
 <style>
   .btn-whatsapp {
     background-color: #24CD63 !important;
+  }
+
+  .money-exchange-logos {
+    display: inline-flex;
   }
 </style>
