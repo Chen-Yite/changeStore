@@ -8,7 +8,7 @@
       </parallax>
       <div class="content-center">
         <div class="container">
-          <h1 class="title">關於</h1>
+          <h1 class="title">聯絡我們</h1>
           <div class="text-center">
             <a href="#pablo" class="btn btn-primary btn-icon btn-round btn-whatsapp">
               <i class="fab fa-whatsapp"></i>
@@ -19,24 +19,18 @@
     </div>
     <div class="section section-about-us">
       <div class="container">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3691.0758348926406!2d114.03908785092834!3d22.312971548072408!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3403fc2f53d3953d%3A0x35b3af6ce4475405!2z6aaZ5riv6L-q5aOr5bC85qiC5ZyS!5e0!3m2!1szh-TW!2stw!4v1608707097191!5m2!1szh-TW!2stw" width="1080" height="600" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
         <div class="row">
           <div class="col-md-8 ml-auto mr-auto text-center">
             <h2 class="title"></h2>
-            <h5 class="description">
-            </h5>
-            <div></div>
             <h3 class="description">
-              <p>公司歷史</p>
+              <p>地址:香港大嶼山香港迪士尼樂園度假區</p>
+              <p>電話:12345678</p>
+              <p>營業時間:</p>
+              <p>Facebook</P>
+              <p>whatsapp</p>
             </h3>
-            <h3 class="description">
-              <p>主要業務</p>
-            </h3>
-            <h3 class="description">
-              <p>外幣兌換</P>
-            </h3>
-            <h4>
-              <p>任務</p>
-            </h4>
+              
           </div>
         </div>
       </div>

@@ -51,7 +51,6 @@
           rel="tooltip"
           title="Follow us on Twitter"
           data-placement="bottom"
-          href="/login"
           target="_self"
         >
           <router-link to="/about">關於</router-link>
@@ -63,7 +62,7 @@
           rel="tooltip"
           title="Follow us on Twitter"
           data-placement="bottom"
-          href="/about"
+          href="/"
           target="_self"
         >
           問題
@@ -75,10 +74,9 @@
           rel="tooltip"
           title="Follow us on Twitter"
           data-placement="bottom"
-          href="https://twitter.com/CreativeTim"
-          target="_blank"
+          target="_self"
         >
-          聯絡
+          <router-link to="/liaison">聯絡</router-link>
         </a>
       </li>
       <!-- <drop-down
