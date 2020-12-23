@@ -23,20 +23,10 @@
       </el-popover>
     </template>
     <template slot="navbar-menu">
-      <!-- <li class="nav-item">
-        <a
-          class="nav-link"
-          href="https://www.creative-tim.com/product/vue-now-ui-kit"
-          target="_blank"
-        >
-          <i class="now-ui-icons arrows-1_cloud-download-93"></i>
-          <p>Download</p>
-        </a>
-      </li> -->
       <li class="nav-item">
         <router-link 
           class="navbar-brand" to="/">
-          Home
+          主頁
         </router-link>
       </li>
       <li class="nav-item">
