@@ -6,6 +6,7 @@ import Login from './pages/Login.vue';
 import Profile from './pages/Profile.vue';
 import MainNavbar from './layout/MainNavbar.vue';
 import MainFooter from './layout/MainFooter.vue';
+import About from './pages/About.vue';
 
 Vue.use(Router);
 
@@ -42,6 +43,15 @@ export default new Router({
       path: '/profile',
       name: 'profile',
       components: { default: Profile, header: MainNavbar, footer: MainFooter },
+      props: {
+        header: { colorOnScroll: 400 },
+        footer: { backgroundColor: 'black' }
+      }
+    },
+    {
+      path: '/about',
+      name: 'about',
+      components: { default: About, header: MainNavbar, footer: MainFooter },
       props: {
         header: { colorOnScroll: 400 },
         footer: { backgroundColor: 'black' }

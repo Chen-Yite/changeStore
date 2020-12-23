@@ -39,8 +39,8 @@
           rel="tooltip"
           title="Follow us on Twitter"
           data-placement="bottom"
-          href="https://twitter.com/CreativeTim"
-          target="_blank"
+          href="/"
+          target="_self"
         >
           Home
         </a>
@@ -51,10 +51,10 @@
           rel="tooltip"
           title="Follow us on Twitter"
           data-placement="bottom"
-          href="https://twitter.com/CreativeTim"
-          target="_blank"
+          href="/login"
+          target="_self"
         >
-          關於
+          <router-link to="/about">關於</router-link>
         </a>
       </li>
       <li class="nav-item">
@@ -63,8 +63,8 @@
           rel="tooltip"
           title="Follow us on Twitter"
           data-placement="bottom"
-          href="https://twitter.com/CreativeTim"
-          target="_blank"
+          href="/about"
+          target="_self"
         >
           問題
         </a>
