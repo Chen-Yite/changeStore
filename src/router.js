@@ -8,7 +8,7 @@ import FAQ from './pages/Faq.vue';
 import MainNavbar from './layout/MainNavbar.vue';
 import MainFooter from './layout/MainFooter.vue';
 import About from './pages/About.vue';
-import liaison from './pages/liaison.vue';
+import contact_us from './pages/contact-us.vue';
 
 Vue.use(Router);
 
@@ -69,9 +69,9 @@ export default new Router({
       }
     },
     {
-      path: '/liaison',
-      name: 'liaison',
-      components: { default: liaison, header: MainNavbar, footer: MainFooter },
+      path: '/contact_us',
+      name: 'contact_us',
+      components: { default: contact_us, header: MainNavbar, footer: MainFooter },
       props: {
         header: { colorOnScroll: 400 },
         footer: { backgroundColor: 'black' }

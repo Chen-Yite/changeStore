@@ -28,14 +28,23 @@
             <h3 class="description">
               <p>公司歷史</p>
             </h3>
+            <h4>
+              億豐成立於19XX年,我們玫立於XXXXX,同時XXXXXXXXX
+            </h4>
             <h3 class="description">
               <p>主要業務</p>
             </h3>
+            <h4>
+              <p>外幣兌換</P>
+              <p>XXX</p>
+            </h4>
             <h3 class="description">
               <p>外幣兌換</P>
             </h3>
             <h4>
-              <p>任務</p>
+              <p>人民幣</p>
+              <p>美金</p>
+              <p>新台幣</p>
             </h4>
           </div>
         </div>

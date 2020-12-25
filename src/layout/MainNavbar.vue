@@ -43,7 +43,7 @@
       </li>
       <li class="nav-item">
         <router-link 
-          class="navbar-brand" to="/contact-us">
+          class="navbar-brand" to="/contact_us">
           聯絡我們
         </router-link>
       </li>
