@@ -41,9 +41,10 @@
         </router-link>
       </li>
       <li class="nav-item">
-        <router-link class="navbar-brand" to="/liaison">
-        聯絡我們
-        {{ $t('nav.contact-us') }}
+        <router-link 
+          class="navbar-brand" to="/contact_us">
+          聯絡我們
+          {{ $t('nav.contact-us') }}
         </router-link>
       </li>
 
