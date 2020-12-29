@@ -1,13 +1,13 @@
 import Vue from 'vue';
 import Router from 'vue-router';
 import Index from './pages/Index.vue';
-import Landing from './pages/Landing.vue';
 import Login from './pages/Login.vue';
 import Profile from './pages/Profile.vue';
 import FAQ from './pages/Faq.vue';
 import MainNavbar from './layout/MainNavbar.vue';
 import MainFooter from './layout/MainFooter.vue';
 import About from './pages/About.vue';
+import BusinessDomain from './pages/BusinessDomain.vue';
 import contact_us from './pages/contact-us.vue';
 
 Vue.use(Router);
@@ -19,15 +19,6 @@ export default new Router({
       path: '/',
       name: 'index',
       components: { default: Index, header: MainNavbar, footer: MainFooter },
-      props: {
-        header: { colorOnScroll: 400 },
-        footer: { backgroundColor: 'black' }
-      }
-    },
-    {
-      path: '/landing',
-      name: 'landing',
-      components: { default: Landing, header: MainNavbar, footer: MainFooter },
       props: {
         header: { colorOnScroll: 400 },
         footer: { backgroundColor: 'black' }
@@ -63,6 +54,15 @@ export default new Router({
       path: '/about',
       name: 'about',
       components: { default: About, header: MainNavbar, footer: MainFooter },
+      props: {
+        header: { colorOnScroll: 400 },
+        footer: { backgroundColor: 'black' }
+      }
+    },
+    {
+      path: '/business-domain',
+      name: 'business-domain',
+      components: { default: BusinessDomain, header: MainNavbar, footer: MainFooter },
       props: {
         header: { colorOnScroll: 400 },
         footer: { backgroundColor: 'black' }

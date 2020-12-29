@@ -8,10 +8,10 @@
   >
     <template>
       <router-link v-popover:popover1 class="navbar-brand" to="/">
-        億豐
+        <!-- 億豐 -->
         <p>{{ $t('nav.company-name') }}</p>
       </router-link>
-      <el-popover
+      <!-- <el-popover
         ref="popover1"
         popper-class="popover"
         placement="bottom"
@@ -19,31 +19,37 @@
         trigger="hover"
       >
         <div class="popover-body">Jillion Forex</div>
-      </el-popover>
+      </el-popover> -->
     </template>
     <template slot="navbar-menu">
       <li class="nav-item">
         <router-link class="navbar-brand" to="/">
-          主頁 
+          <!-- 主頁  -->
           {{ $t('nav.home-page') }}
         </router-link>
       </li>
       <li class="nav-item">
+        <router-link class="navbar-brand" to="/business_domain"> 
+        <!-- 關於  -->
+        {{ $t('nav.business-domain') }}
+        </router-link>
+      </li>
+      <li class="nav-item">
         <router-link class="navbar-brand" to="/about"> 
-        關於 
+        <!-- 關於  -->
         {{ $t('nav.about-us') }}
         </router-link>
       </li>
       <li class="nav-item">
         <router-link class="navbar-brand" to="/faq"> 
-        問題
+        <!-- 問題 -->
         {{ $t('FAQ') }}
         </router-link>
       </li>
       <li class="nav-item">
         <router-link 
           class="navbar-brand" to="/contact_us">
-          聯絡我們
+          <!-- 聯絡我們 -->
           {{ $t('nav.contact-us') }}
         </router-link>
       </li>
@@ -54,13 +60,13 @@
         class="nav-item"
       >
         <nav-link class="dropdown-item" to="/"> 
-          <a @click="changeLanguage('ENG')">ENG</a> 
-        </nav-link>
-        <nav-link class="dropdown-item" to="/"> 
           <a @click="changeLanguage('繁體')">繁體</a> 
         </nav-link>
         <nav-link class="dropdown-item" to="/"> 
           <a @click="changeLanguage('簡體')">簡體</a> 
+        </nav-link>
+        <nav-link class="dropdown-item" to="/"> 
+          <a @click="changeLanguage('ENG')">ENG</a> 
         </nav-link>
       </drop-down>
     </template>
@@ -90,7 +96,7 @@ export default {
   },
   data() {
     return {
-      localization: "ENG"
+      localization: "繁體"
     };
   },
   methods: {

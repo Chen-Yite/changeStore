@@ -13,16 +13,16 @@ let state = {
   curLanguage: null,
   languages: [
     {
-      short: 'en',
-      long: 'English'
-    },
-    {
-      short: 'zh-Hant',
+      short: 'zh-hant',
       long: '繁體'
     },
     {
-      short: 'zh-Hans',
+      short: 'zh-hans',
       long: '簡體'
+    },
+    {
+      short: 'en',
+      long: 'English'
     }
   ]
 };

@@ -169,6 +169,10 @@ export default {
     [Button.name]: Button,
     [FormGroupInput.name]: FormGroupInput
   },
+  created() {
+    // console.log('created', this.$store.state.curLanguage);
+    Vue.i18n.set(this.$store.state.curLanguage.short);
+  },
   data() {
     return {
       form: {

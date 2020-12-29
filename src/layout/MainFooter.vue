@@ -7,21 +7,32 @@
     <div class="container">
       <nav>
         <ul>
-          <li>
-            <a href="https://www.creative-tim.com">
-              Creative Tim
-            </a>
-          </li>
-          <li>
-            <a href="https:///presentation.creative-tim.com">
-              About Us
-            </a>
-          </li>
-          <li>
-            <a href="https:///blog.creative-tim.com">
-              Blog
-            </a>
-          </li>
+            <li class="nav-item">
+              <router-link class="navbar-brand" to="/">
+                <!-- 主頁  -->
+                {{ $t('nav.home-page') }}
+              </router-link>
+            </li>
+            <li class="nav-item">
+              <router-link class="navbar-brand" to="/about"> 
+              <!-- 關於  -->
+              {{ $t('nav.about-us') }}
+              </router-link>
+            </li>
+            <li class="nav-item">
+              <router-link class="navbar-brand" to="/faq"> 
+              <!-- 問題 -->
+              {{ $t('FAQ') }}
+              </router-link>
+            </li>
+            <li class="nav-item">
+              <router-link 
+                class="navbar-brand" to="/contact_us">
+                <!-- 聯絡我們 -->
+                {{ $t('nav.contact-us') }}
+              </router-link>
+            </li>
+
         </ul>
       </nav>
       <div class="copyright">

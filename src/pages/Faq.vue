@@ -41,6 +41,17 @@
             答: 我們都是經常去大陸旅行的朋友，所以對人民幣港幣的對換可以算是。
           </div>
         </div>
+
+        <br /><br />
+        
+        <div class="faq-question-and-answer">
+          <div class="faq-question">
+            問: 我們的營業時間是？
+          </div>
+          <div class="faq-answer">
+            答: 我們營業時間是星期一至星期日，公眾假期照常營業。
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -55,6 +66,10 @@ export default {
     [CollapseItem.name]: CollapseItem,
     [Button.name]: Button,
     [FormGroupInput.name]: FormGroupInput
+  },
+  created() {
+    // console.log('created', this.$store.state.curLanguage);
+    Vue.i18n.set(this.$store.state.curLanguage.short);
   },
   data() {
     return {
