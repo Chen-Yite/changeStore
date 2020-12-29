@@ -9,7 +9,6 @@
       <div class="content-center">
         <div class="container">
           <h1 class="title">業務範圍
-            {{ $t('nav.contact-us') }}
           </h1>
           <!-- <div class="text-center">
             <a href="#pablo" class="btn btn-primary btn-icon btn-round btn-whatsapp">
@@ -25,6 +24,7 @@
           <div class="col-md-8 ml-auto mr-auto text-center">
             <h2 class="title"></h2>
             <h3 class="description">
+              {{ $t('landing-page.first-tab.landing-paragraph') }}
               <p>1. 滙款</p>
               <ul>
                 <li>
@@ -62,15 +62,11 @@
 <script>
 import { Button, FormGroupInput } from '@/components';
 export default {
-  name: 'business-domain',
-  bodyClass: 'business-domain-page',
+  name: 'business_domain',
+  bodyClass: 'business_domain_page',
   components: {
     [Button.name]: Button,
     [FormGroupInput.name]: FormGroupInput
-  },
-  created() {
-    // console.log('created', this.$store.state.curLanguage);
-    Vue.i18n.set(this.$store.state.curLanguage.short);
   },
   data() {
     return {

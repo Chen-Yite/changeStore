@@ -51,6 +51,7 @@
           class="navbar-brand" to="/contact_us">
           <!-- 聯絡我們 -->
           {{ $t('nav.contact-us') }}
+          
         </router-link>
       </li>
 
@@ -59,13 +60,13 @@
         :title="localization"
         class="nav-item"
       >
-        <nav-link class="dropdown-item" to="/"> 
+        <nav-link class="dropdown-item" :to="$route.name=='index'?'/':$route.name"> 
           <a @click="changeLanguage('繁體')">繁體</a> 
         </nav-link>
-        <nav-link class="dropdown-item" to="/"> 
+        <nav-link class="dropdown-item" :to="$route.name=='index'?'/':$route.name"> 
           <a @click="changeLanguage('簡體')">簡體</a> 
         </nav-link>
-        <nav-link class="dropdown-item" to="/"> 
+        <nav-link class="dropdown-item" :to="$route.name=='index'?'/':$route.name"> 
           <a @click="changeLanguage('ENG')">ENG</a> 
         </nav-link>
       </drop-down>

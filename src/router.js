@@ -8,7 +8,7 @@ import MainNavbar from './layout/MainNavbar.vue';
 import MainFooter from './layout/MainFooter.vue';
 import About from './pages/About.vue';
 import BusinessDomain from './pages/BusinessDomain.vue';
-import contact_us from './pages/contact-us.vue';
+import ContactUs from './pages/ContactUs.vue';
 
 Vue.use(Router);
 
@@ -60,8 +60,8 @@ export default new Router({
       }
     },
     {
-      path: '/business-domain',
-      name: 'business-domain',
+      path: '/business_domain',
+      name: 'business_domain',
       components: { default: BusinessDomain, header: MainNavbar, footer: MainFooter },
       props: {
         header: { colorOnScroll: 400 },
@@ -71,7 +71,7 @@ export default new Router({
     {
       path: '/contact_us',
       name: 'contact_us',
-      components: { default: contact_us, header: MainNavbar, footer: MainFooter },
+      components: { default: ContactUs, header: MainNavbar, footer: MainFooter },
       props: {
         header: { colorOnScroll: 400 },
         footer: { backgroundColor: 'black' }
