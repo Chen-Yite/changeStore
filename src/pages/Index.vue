@@ -8,21 +8,12 @@
       </parallax>
       <div class="content-center">
         <div class="container">
-          <h1 class="title">億豐找換店，人民幣港幣找換</h1>
+          <h1 class="title">
+            億豐找換店，人民幣港幣找換
+            {{ $t('first-tab.landing-paragraph') }}
+          </h1>
           <div class="text-center">
-            <a href="#pablo" class="btn btn-primary btn-icon btn-round btn-whatsapp">
-              <i class="fab fa-whatsapp"></i>
-            </a>
-          </div>
-          <br />
-          <div class="text-center money-exchange-logos">
-            <div class="logo-left">
-              <img src="../assets/img/HongKongCustoms.svg" style="width: 5vw; height:5vh;" />
-              <div>金錢服務經營者</div>
-            </div>
-            <div class="logo-right">
-              <img src="../assets/img/mso_hk_custom.png" style="margin-left:2vw; width: 9vw; height:5vh;" />
-            </div>
+             
           </div>
         </div>
       </div>
@@ -31,9 +22,23 @@
       <div class="container">
         <div class="row">
           <div class="col-md-8 ml-auto mr-auto text-center">
+            <div class="text-center money-exchange-logos">
+              <div class="logo-left">
+                <img src="../assets/img/HongKongCustoms.svg" style="width: 55px; height55px;" />
+                <div>金錢服務經營者牌照</div>
+              </div>
+              <div class="logo-right">
+                <img src="../assets/img/HongKongCustoms.svg" style="width: 55px; height55px;" />
+                <div>MSO</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-8 ml-auto mr-auto text-center">
             <h2 class="title"></h2>
             <h5 class="description">
-              億豐找換店專注為你服務。我們設站找換店在葵涌廣場，專盛為大家提供最優質的人民幣對港幣找換。跟貼最新最合新的滙價，以達到最佳的找換服務。
+              億豐找換竭誠為你服務。找換店設於葵芳廣場，全力為客戶提供可靠人民幣兌換服務。緊貼最新匯價，精益求精！
             </h5>
           </div>
         </div>
@@ -46,14 +51,14 @@
                 style="background-image: url('img/login.jpg')"
               >
                 <!-- First image on the left side -->
-                <!-- <p class="blockquote blockquote-primary">
+                <p class="blockquote blockquote-primary">
                   "Over the span of the satellite record, Arctic sea ice has
                   been declining significantly, while sea ice in the
                   Antarctichas increased very slightly"
                   <br />
                   <br />
                   <small>-NOAA</small>
-                </p> -->
+                </p>
               </div>
               <!-- Second image on the left side of the article -->
               <div
@@ -228,6 +233,8 @@
 </template>
 <script>
 import { Button, FormGroupInput } from '@/components';
+import Vue from 'vue';
+
 export default {
   name: 'index',
   bodyClass: 'index-page',
@@ -235,23 +242,36 @@ export default {
     [Button.name]: Button,
     [FormGroupInput.name]: FormGroupInput
   },
+  created() {
+    // console.log('created', this.$store.state.curLanguage);
+    Vue.i18n.set(this.$store.state.curLanguage.short);
+  },
   data() {
     return {
+      localization: "ENG",
       form: {
         firstName: '',
         email: '',
         message: ''
       }
-    };
+    }
   }
 };
 </script>
 <style>
+  .section-about-us {
+    background-color: #dcdcdc;
+  }
+  
   .btn-whatsapp {
     background-color: #24CD63 !important;
   }
 
   .money-exchange-logos {
     display: inline-flex;
+  }
+
+  .logo-left {
+    margin-right: 4vw;
   }
 </style>
