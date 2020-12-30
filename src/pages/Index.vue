@@ -14,9 +14,7 @@
           </h1>
           <div class="text-center">
              <a href="#pablo" class="btn btn-primary btn-icon btn-round btn-whatsapp">
-              <i class="fab fa-whatsapp">
-
-              </i>
+              <i class="fab fa-whatsapp"></i>
             </a>
           </div>
         </div>

@@ -4,7 +4,7 @@ export default {
         "home-page": "主頁",
         "business-domain": "業務範圍",
         "about-us": "關於",
-        "FAQ": "問題",
+        "faq": "問題",
         "contact-us": "聯絡我們"
     },
     "landing-page": {
@@ -20,7 +20,46 @@ export default {
             "second-paragraph-two-text": "空空空空空空空空空空空空空空空空空空空空空空空空空空空空空空空空空空空空空空空空空空空空空空空空空空空空空空空空空空空空空空空空空空空空空空空空",
             "second-paragraph-three-text": "空空空空空空空空空空空空空空空空空空空空空空空空空空空空空空空空空空空空空空空空空空空空空空空空空空空空空空空空空空空空空空空空空空空空空空空空"
         }
+    },
+    "business-domain": {
+        "first-tab": {
+            "page-title": "業務範圍"
+        },
+        "second-tab": {
+            "first-point": {
+                "title": "滙款",
+                "point-one": "國內匯款至香港，香港匯款至國內",
+                "point-two": "香港匯款至世界各國",
+            },
+            "second-point": {
+                "title": "外幣兌換",
+                "point-one": "人民幣",
+                "point-two": "美金",
+                "point-three": "歐元",
+            },
+            "third-point": {
+                "title": "電匯",
+                "point-one": "代客電匯至歐美部份國家 (因受條件限制)"
+            }
+        }
+    },
+    "faq": {
+        "title": "常見問題",
+        "first-question": {
+            "question": "問: 億豐找換店有幾多間分店？",
+            "answer": "答: 億豐找換店只有一間在葵涌廣場。客戶可以到分行地址查看各分行之營業時間。"
+        },
+         "second-question": {
+            "question": "問: 億豐找換店可靠嗎？ ",
+            "answer": "答: 我們是一心一意要做好找換店。用心地希望把人民幣港幣找換做到最好，每月有幾萬計的交易。以真誠的態度獲取眾多客戶的信任。"
+        },
+         "third-question": {
+            "question": "問: 為何只專注人民幣對港幣找換？",
+            "answer": "答: 我們都是經常去大陸旅行的朋友，所以對人民幣港幣的對換可以算是我們的興趣。"
+        },
+         "fourth-question": {
+            "question": "問: 我們的營業時間是？",
+            "answer": "答: 我們營業時間是星期一至星期日，公眾假期照常營業。"
+        }
     }
-
-        
 } 

@@ -43,7 +43,7 @@
       <li class="nav-item">
         <router-link class="navbar-brand" to="/faq"> 
         <!-- 問題 -->
-        {{ $t('FAQ') }}
+        {{ $t('nav.faq') }}
         </router-link>
       </li>
       <li class="nav-item">

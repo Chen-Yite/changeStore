@@ -8,7 +8,9 @@
       </parallax>
       <div class="content-center">
         <div class="container">
-          <h1 class="title">FAQ</h1>
+          <h1 class="title">
+            {{ $t('faq.title') }}
+          </h1>
         </div>
       </div>
     </div>
@@ -16,29 +18,35 @@
       <div class="container">
         <div class="faq-question-and-answer">
           <div class="faq-question">
-            問: 億豐找換店有幾多間分店？
+            <!-- 問: 億豐找換店有幾多間分店？ -->
+            {{ $t('faq.first-question.question') }}
           </div>
           <div class="faq-answer">
-            答: 億豐找換店只有一間在葵涌廣場。客戶可以到分行地址查看各分行之營業時間。
+            <!-- 答: 億豐找換店只有一間在葵涌廣場。客戶可以到分行地址查看各分行之營業時間。 -->
+            {{ $t('faq.first-question.answer') }}
           </div>
         </div>
         <br /><br />
         <div class="faq-question-and-answer">
           <div class="faq-question">
-            問: 億豐找換店可靠嗎？
+            <!-- 問: 億豐找換店可靠嗎？ -->
+            {{ $t('faq.second-question.question') }}
           </div>
           <div class="faq-answer">
-            答: 我們是一心一意要做好找換店。用心地希望把人民幣港幣找換做到最好，每月有幾萬計的交易。以真誠的態度獲取眾多客戶的信任。
+            <!-- 答: 我們是一心一意要做好找換店。用心地希望把人民幣港幣找換做到最好，每月有幾萬計的交易。以真誠的態度獲取眾多客戶的信任。 -->
+            {{ $t('faq.second-question.answer') }}
           </div>
         </div>
         <br /><br />
         
         <div class="faq-question-and-answer">
           <div class="faq-question">
-            問: 為何只專注人民幣對港幣找換？
+            <!-- 問: 為何只專注人民幣對港幣找換？ -->
+            {{ $t('faq.third-question.question') }}
           </div>
           <div class="faq-answer">
-            答: 我們都是經常去大陸旅行的朋友，所以對人民幣港幣的對換可以算是。
+            <!-- 答: 我們都是經常去大陸旅行的朋友，所以對人民幣港幣的對換可以算是。 -->
+            {{ $t('faq.third-question.answer') }}
           </div>
         </div>
 
@@ -46,10 +54,12 @@
         
         <div class="faq-question-and-answer">
           <div class="faq-question">
-            問: 我們的營業時間是？
+            <!-- 問: 我們的營業時間是？ -->
+            {{ $t('faq.fourth-question.question') }}
           </div>
           <div class="faq-answer">
-            答: 我們營業時間是星期一至星期日，公眾假期照常營業。
+            <!-- 答: 我們營業時間是星期一至星期日，公眾假期照常營業。 -->
+            {{ $t('faq.fourth-question.answer') }}
           </div>
         </div>
       </div>
