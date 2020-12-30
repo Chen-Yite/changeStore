@@ -8,7 +8,7 @@
       </parallax>
       <div class="content-center">
         <div class="container">
-          <h1 class="title">FAQ</h1>
+          <h1 class="title">{{ $t('nav.FAQ') }}</h1>
         </div>
       </div>
     </div>
@@ -16,29 +16,29 @@
       <div class="container">
         <div class="faq-question-and-answer">
           <div class="faq-question">
-            問: 億豐找換店有幾多間分店？
+            {{ $t('Faq-page.Q1') }}
           </div>
           <div class="faq-answer">
-            答: 億豐找換店只有一間在葵涌廣場。客戶可以到分行地址查看各分行之營業時間。
+            {{ $t('Faq-page.A1') }}
           </div>
         </div>
         <br /><br />
         <div class="faq-question-and-answer">
           <div class="faq-question">
-            問: 億豐找換店可靠嗎？
+            {{ $t('Faq-page.Q2') }}
           </div>
           <div class="faq-answer">
-            答: 我們是一心一意要做好找換店。用心地希望把人民幣港幣找換做到最好，每月有幾萬計的交易。以真誠的態度獲取眾多客戶的信任。
+            {{ $t('Faq-page.A2') }}
           </div>
         </div>
         <br /><br />
         
         <div class="faq-question-and-answer">
           <div class="faq-question">
-            問: 為何只專注人民幣對港幣找換？
+            {{ $t('Faq-page.Q3') }}
           </div>
           <div class="faq-answer">
-            答: 我們都是經常去大陸旅行的朋友，所以對人民幣港幣的對換可以算是。
+            {{ $t('Faq-page.A3') }}
           </div>
         </div>
 
@@ -46,10 +46,10 @@
         
         <div class="faq-question-and-answer">
           <div class="faq-question">
-            問: 我們的營業時間是？
+            {{ $t('Faq-page.Q4') }}
           </div>
           <div class="faq-answer">
-            答: 我們營業時間是星期一至星期日，公眾假期照常營業。
+            {{ $t('Faq-page.A4') }}
           </div>
         </div>
       </div>

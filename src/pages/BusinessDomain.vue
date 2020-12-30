@@ -8,7 +8,7 @@
       </parallax>
       <div class="content-center">
         <div class="container">
-          <h1 class="title">業務範圍
+          <h1 class="title">{{ $t('nav.business-domain') }}
           </h1>
           <!-- <div class="text-center">
             <a href="#pablo" class="btn btn-primary btn-icon btn-round btn-whatsapp">
@@ -25,31 +25,31 @@
             <h2 class="title"></h2>
             <h3 class="description">
               {{ $t('landing-page.first-tab.landing-paragraph') }}
-              <p>1. 滙款</p>
+              <p>{{ $t('BusinessDomain-page.second-tab.Titl1') }}</p>
               <ul>
                 <li>
-                  國內匯款至香港，香港匯款至國內
+                  {{ $t('BusinessDomain-page.second-tab.l1') }}
                 </li>
                 <li>
-                  香港匯款至世界各國
+                  {{ $t('BusinessDomain-page.second-tab.l2') }}
                 </li>
               </ul>
-              <p>2. 外幣兌換</p>
+              <p>{{ $t('BusinessDomain-page.second-tab.Titl2') }}</p>
               <ul>
                 <li>
-                  人民幣
+                  {{ $t('BusinessDomain-page.second-tab.l3') }}
                 </li>
                 <li>
-                  美金
+                  {{ $t('BusinessDomain-page.second-tab.l4') }}
                 </li>
                 <li>
-                  歐元
+                  {{ $t('BusinessDomain-page.second-tab.l5') }}
                 </li>
               </ul>
-              <p>3. 電匯</p>
+              <p>{{ $t('BusinessDomain-page.second-tab.Titl3') }}</p>
               <ul>
                 <li>
-                  代客電匯至歐美部份國家 (因受條件限制)
+                  {{ $t('BusinessDomain-page.second-tab.l6') }}
                 </li>
               </ul>
             </h3>
