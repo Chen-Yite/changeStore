@@ -8,13 +8,9 @@
       </parallax>
       <div class="content-center">
         <div class="container">
-<<<<<<< HEAD
           <h1 class="title">
             <!-- 業務範圍 -->
             {{ $t('business-domain.first-tab.page-title') }}
-=======
-          <h1 class="title">{{ $t('nav.business-domain') }}
->>>>>>> 213cbfbdc0f616b2c6d7ba1c554d5deb193e2174
           </h1>
         </div>
       </div>
@@ -22,7 +18,6 @@
     <div class="section section-domain-business">
       <div class="container">
         <div class="row">
-<<<<<<< HEAD
           <section>
             <div>
               <h2>{{ $t('business-domain.second-tab.first-point.title') }}</h2>
@@ -51,38 +46,6 @@
               <h2>{{ $t('business-domain.second-tab.third-point.title') }}</h2>
               <ul class="check-list">
                 <li>{{ $t('business-domain.second-tab.third-point.point-one') }}</li>
-=======
-          <div class="col-md-8 ml-auto mr-auto text-center">
-            <h2 class="title"></h2>
-            <h3 class="description">
-              {{ $t('landing-page.first-tab.landing-paragraph') }}
-              <p>{{ $t('BusinessDomain-page.second-tab.Titl1') }}</p>
-              <ul>
-                <li>
-                  {{ $t('BusinessDomain-page.second-tab.l1') }}
-                </li>
-                <li>
-                  {{ $t('BusinessDomain-page.second-tab.l2') }}
-                </li>
-              </ul>
-              <p>{{ $t('BusinessDomain-page.second-tab.Titl2') }}</p>
-              <ul>
-                <li>
-                  {{ $t('BusinessDomain-page.second-tab.l3') }}
-                </li>
-                <li>
-                  {{ $t('BusinessDomain-page.second-tab.l4') }}
-                </li>
-                <li>
-                  {{ $t('BusinessDomain-page.second-tab.l5') }}
-                </li>
-              </ul>
-              <p>{{ $t('BusinessDomain-page.second-tab.Titl3') }}</p>
-              <ul>
-                <li>
-                  {{ $t('BusinessDomain-page.second-tab.l6') }}
-                </li>
->>>>>>> 213cbfbdc0f616b2c6d7ba1c554d5deb193e2174
               </ul>
             </div>
           </section>

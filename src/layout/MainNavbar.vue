@@ -3,7 +3,6 @@
     position="fixed"
     type="primary"
     class="top-nav-bar"
-    :transparent="false"
     menu-classes="ml-auto"
   >
     <template>
@@ -23,38 +22,47 @@
     </template>
     <template slot="navbar-menu">
       <li class="nav-item">
-        <router-link class="navbar-brand" to="/">
-          <!-- 主頁  -->
-          {{ $t('nav.home-page') }}
-        </router-link>
+        <a class="nav-link">
+          <router-link class="navbar-brand" to="/">
+            <!-- 主頁  -->
+            {{ $t('nav.home-page') }}
+          </router-link>
+        </a>
       </li>
       <li class="nav-item">
-        <router-link class="navbar-brand" to="/business_domain"> 
-        <!-- 關於  -->
-        {{ $t('nav.business-domain') }}
-        </router-link>
+        <a class="nav-link">
+          <router-link class="navbar-brand" to="/business_domain"> 
+          <!-- 關於  -->
+          {{ $t('nav.business-domain') }}
+          </router-link>
+        </a>
       </li>
       <li class="nav-item">
-        <router-link class="navbar-brand" to="/about"> 
-        <!-- 關於  -->
-        {{ $t('nav.about-us') }}
-        </router-link>
+        <a class="nav-link">
+          <router-link class="navbar-brand" to="/about"> 
+          <!-- 關於  -->
+          {{ $t('nav.about-us') }}
+          </router-link>
+        </a>
       </li>
       <li class="nav-item">
-        <router-link class="navbar-brand" to="/faq"> 
-        <!-- 問題 -->
-        {{ $t('nav.faq') }}
-        </router-link>
+        <a class="nav-link">
+          <router-link class="navbar-brand" to="/faq"> 
+          <!-- 問題 -->
+          {{ $t('nav.faq') }}
+          </router-link>
+        </a>
       </li>
       <li class="nav-item">
+        <a class="nav-link">
         <router-link 
           class="navbar-brand" to="/contact_us">
           <!-- 聯絡我們 -->
           {{ $t('nav.contact-us') }}
-          
         </router-link>
+        </a>
       </li>
-
+      <a class="nav-link">
       <drop-down
         tag="li"
         :title="localization"
@@ -70,6 +78,7 @@
           <a @click="changeLanguage('ENG')">ENG</a> 
         </nav-link>
       </drop-down>
+      </a>
     </template>
   </navbar>
 </template>
@@ -124,6 +133,19 @@ export default {
 };
 </script>
 <style scoped>
+
+@media screen and (max-width: 991px)
+.sidebar-collapse .navbar-collapse:before {
+    background: #000 !important;
+    background: -webkit-gradient(linear, left top, left bottom, from(#000), color-stop(80%, #000)) !important;
+    background: linear-gradient(#000 0%, #000 80%) !important;
+}
+
+
+.navbar-collapse .collapse .show {
+  background-color: #000 !important;
+}
+
 .navbar {
   background-color: #b59b53 !important;
 }
@@ -138,5 +160,7 @@ export default {
 
 .navbar .nav-link {
   color: #fff !important;
+  font-size: 1.2em !important;
 }
+
 </style>
