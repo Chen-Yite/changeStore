@@ -8,12 +8,7 @@
       </parallax>
       <div class="content-center">
         <div class="container">
-          <h1 class="title">關於</h1>
-          <div class="text-center">
-            <a href="#pablo" class="btn btn-primary btn-icon btn-round btn-whatsapp">
-              <i class="fab fa-whatsapp"></i>
-            </a>
-          </div>
+          <h1 class="title">{{ $t('nav.about-us') }}</h1>
         </div>
       </div>
     </div>
@@ -25,27 +20,14 @@
             <h5 class="description">
             </h5>
             <div></div>
-            <h3 class="description">
-              <p>公司歷史</p>
-            </h3>
-            <h4>
-              億豐成立於19XX年,我們玫立於XXXXX,同時XXXXXXXXX
-            </h4>
-            <h3 class="description">
-              <p>主要業務</p>
-            </h3>
-            <h4>
-              <p>外幣兌換</P>
-              <p>XXX</p>
-            </h4>
-            <h3 class="description">
-              <p>外幣兌換</P>
-            </h3>
-            <h4>
-              <p>人民幣</p>
-              <p>美金</p>
-              <p>新台幣</p>
-            </h4>
+            <ul>
+                <li>
+                  <p>{{ $t('About-page.Titl1') }}</p>
+                </li>
+                <li>
+                    {{ $t('About-page.L1') }}
+                </li>
+            </ul>
           </div>
         </div>
       </div>

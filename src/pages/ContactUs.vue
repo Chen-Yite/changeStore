@@ -8,12 +8,7 @@
       </parallax>
       <div class="content-center">
         <div class="container">
-          <h1 class="title">聯絡我們</h1>
-          <div class="text-center">
-            <a href="#pablo" class="btn btn-primary btn-icon btn-round btn-whatsapp">
-              <i class="fab fa-whatsapp"></i>
-            </a>
-          </div>
+          <h1 class="title">{{ $t('nav.contact-us') }}</h1>
         </div>
       </div>
     </div>
@@ -24,11 +19,11 @@
           <div class="col-md-8 ml-auto mr-auto text-center">
             <h2 class="title"></h2>
             <h3 class="description">
-              <p>地址:香港大嶼山香港迪士尼樂園度假區</p>
-              <p>電話:12345678</p>
-              <p>營業時間:</p>
-              <p>Facebook</P>
-              <p>whatsapp</p>
+              <p>{{ $t('contact-us-page.Address') }}</p>
+              <p>{{ $t('contact-us-page.Tel') }}</p>
+              <p>{{ $t('contact-us-page.Times') }}:</p>
+              <p>{{ $t('contact-us-page.Facebook') }}</P>
+              <p>{{ $t('contact-us-page.Whatsapp') }}</p>
             </h3>
               
           </div>
@@ -163,8 +158,8 @@
 <script>
 import { Button, FormGroupInput } from '@/components';
 export default {
-  name: 'contact_us',
-  bodyClass: 'contact_us_page',
+  name: 'index',
+  bodyClass: 'index-page',
   components: {
     [Button.name]: Button,
     [FormGroupInput.name]: FormGroupInput

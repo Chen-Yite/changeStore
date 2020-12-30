@@ -60,7 +60,17 @@ export default {
          "fourth-question": {
             "question": "问: 我们的营业时间是？",
             "answer": "答: 我们营业时间是星期一至星期日，公众假期照常营业。"
-        }
+        },
+    },
+    "About-page": {
+        "Titl1": "公司历史",
+        "L1": "亿丰成立于19XX年,我们玫立于XXXXX,同时XXXXXXXXX"
+    },
+    "contact-us-page": {
+        "Address": "地址:香港大屿山香港迪士尼乐园度假区",
+        "Tel": "电话:12345678",
+        "Times": "营业时间:",
+        "Facebook": "Facebook",
+        "Whatsapp": "whatsapp"
     }
-    
 }

@@ -61,5 +61,16 @@ export default {
             "question": "問: 我們的營業時間是？",
             "answer": "答: 我們營業時間是星期一至星期日，公眾假期照常營業。"
         }
+    },
+    "About-page": {
+        "Titl1": "公司歷史",
+        "L1": "億豐成立於19XX年,我們玫立於XXXXX,同時XXXXXXXXX"
+    },
+    "contact-us-page": {
+        "Address": "地址:香港大嶼山香港迪士尼樂園度假區",
+        "Tel": "電話:12345678",
+        "Times": "營業時間:",
+        "Facebook": "Facebook",
+        "Whatsapp": "whatsapp"
     }
 } 
