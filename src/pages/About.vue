@@ -12,23 +12,17 @@
         </div>
       </div>
     </div>
-    <div class="section section-about-us">
+    <div class="section section-domain-business">
       <div class="container">
         <div class="row">
-          <div class="col-md-8 ml-auto mr-auto text-center">
-            <h2 class="title"></h2>
-            <h5 class="description">
-            </h5>
-            <div></div>
-            <ul>
-                <li>
-                  <p>{{ $t('About-page.Titl1') }}</p>
-                </li>
-                <li>
-                    {{ $t('About-page.L1') }}
-                </li>
-            </ul>
-          </div>
+          <section>
+            <div>
+              <h2>{{ $t('About-page.Titl1') }}</h2>
+              <ul class="about">
+                  <li>{{ $t('About-page.L1') }}</li>
+              </ul>
+            </div>
+          </section>
         </div>
       </div>
     </div>
@@ -181,5 +175,25 @@ export default {
 <style>
   .btn-whatsapp {
     background-color: #24CD63 !important;
+  }
+
+  .about{
+    height: 7vh;
+    padding: 3px;
+    background-color: #f9f9f9;
+  }
+
+  section {
+    height: 100%;
+  }
+
+  section {
+    max-width: 400px;
+    display: flex;
+    align-items: center;
+  }
+
+  div {
+    margin: auto;
   }
 </style>

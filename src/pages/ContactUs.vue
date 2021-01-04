@@ -12,20 +12,15 @@
         </div>
       </div>
     </div>
-    <div class="section section-about-us">
-      <div class="container">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3691.0758348926406!2d114.03908785092834!3d22.312971548072408!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3403fc2f53d3953d%3A0x35b3af6ce4475405!2z6aaZ5riv6L-q5aOr5bC85qiC5ZyS!5e0!3m2!1szh-TW!2stw!4v1608707097191!5m2!1szh-TW!2stw" width="1080" height="600" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+    <div class="section section-domain-business">
+      <div class="col-md-8 ml-auto mr-auto text-center">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3691.0758348926406!2d114.03908785092834!3d22.312971548072408!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3403fc2f53d3953d%3A0x35b3af6ce4475405!2z6aaZ5riv6L-q5aOr5bC85qiC5ZyS!5e0!3m2!1szh-TW!2stw!4v1608707097191!5m2!1szh-TW!2stw" width="108%" height="400" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
         <div class="row">
           <div class="col-md-8 ml-auto mr-auto text-center">
-            <h2 class="title"></h2>
-            <h3 class="description">
-              <p>{{ $t('contact-us-page.Address') }}</p>
-              <p>{{ $t('contact-us-page.Tel') }}</p>
-              <p>{{ $t('contact-us-page.Times') }}:</p>
-              <p>{{ $t('contact-us-page.Facebook') }}</P>
-              <p>{{ $t('contact-us-page.Whatsapp') }}</p>
-            </h3>
-              
+              <p class="about">{{ $t('contact-us-page.Address') }}</p>
+              <p class="about">{{ $t('contact-us-page.Tel') }}</p>
+              <p class="about">{{ $t('contact-us-page.Times') }}</p>
+              <p class="about">{{ $t('contact-us-page.Whatsapp') }}</p>
           </div>
         </div>
       </div>
@@ -178,5 +173,11 @@ export default {
 <style>
   .btn-whatsapp {
     background-color: #24CD63 !important;
+  }
+
+  .contactUS{
+    height: 7vh;
+    padding: 3px;
+    background-color: #f9f9f9;
   }
 </style>
