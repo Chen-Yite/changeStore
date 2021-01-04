@@ -9,7 +9,8 @@ export default {
     },
     "landing-page": {
         "first-tab": {
-            "landing-paragraph": "亿丰找换店，人民币港币找换"
+            "landing-paragraph": "亿丰找换店，人民币港币找换",
+            "mso-license-number": "经营金钱服务牌照号码："
         },
         "second-tab": {
             "license": "金钱服务经营者许可证",

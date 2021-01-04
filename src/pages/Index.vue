@@ -13,6 +13,9 @@
             {{ $t('landing-page.first-tab.landing-paragraph') }}
           </h1>
           <div class="text-center">
+            {{ $t('landing-page.first-tab.mso-license-number') }} 11-09-00222
+          </div>
+          <div class="text-center">
              <a href="#pablo" class="btn btn-primary btn-icon btn-round btn-whatsapp">
               <i class="fab fa-whatsapp"></i>
             </a>

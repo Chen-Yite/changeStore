@@ -9,7 +9,8 @@ export default {
     },
     "landing-page": {
         "first-tab": {
-            "landing-paragraph": "Jillion Forex Money Exchange, RMB to HKD money exchange"
+            "landing-paragraph": "Jillion Forex Money Exchange, RMB to HKD money exchange",
+            "mso-license-number": "Money Service Operator License Number: "
         },
         "second-tab": {
             "license": "Money Service Operator License",

@@ -9,7 +9,8 @@ export default {
     },
     "landing-page": {
         "first-tab": {
-            "landing-paragraph": "億豐找換店，人民幣港幣找換"
+            "landing-paragraph": "億豐找換店，人民幣港幣找換",
+            "mso-license-number": "經營金錢服務牌照號碼："
         },
         "second-tab": {
             "license": "金錢服務經營者牌照",
