@@ -147,7 +147,7 @@ export default {
 }
 
 .navbar {
-  background-color: #b59b53 !important;
+  background-color: #cec09b !important;
 }
 
 .navbar-nav .dropdown-menu .router-link-active {
