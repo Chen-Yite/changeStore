@@ -3,7 +3,7 @@
     <div class="page-header page-header-small">
       <parallax
         class="page-header-image"
-        style="background-image: url('img/bg4.jpg'); height: 80vh;"
+        style="background-image: url('img/jillion_shop_front.jpg'); height: 80vh;"
       >
       </parallax>
       <div class="content-center">

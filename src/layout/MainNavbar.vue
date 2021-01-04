@@ -123,7 +123,7 @@ export default {
           i18nLangShort = "zh-hans";
           break;
         default:
-          console.log(`Sorry, we are out of ${expr}.`);
+          i18nLangShort = "zh-hant";
       }
       this.localization = lang;
       Vue.i18n.set(i18nLangShort);
