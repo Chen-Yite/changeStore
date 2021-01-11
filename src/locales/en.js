@@ -71,10 +71,10 @@ export default {
         "L1": "Jillion Forex was established in 19XX, we are established in XXXXX, at the same time XXXXXXXXX"
     },
     "contact-us-page": {
-        "Address": "Address: Hong Kong Disneyland Resort, Lantau Island, Hong Kong",
-        "Tel": "Phone: 12345678",
+        "Address": "Address: A70a, G/F, Kwai Chung Plaza, 7-11 Kwai Fu Road, New Territories",
+        "Tel": "Phone: 2771-1290",
         "Times": "Business Hours:",
         "Facebook": "Facebook",
-        "Whatsapp": "whatsapp"
+        "Whatsapp": "66180058"
     }
 }

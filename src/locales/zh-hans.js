@@ -68,10 +68,10 @@ export default {
         "L1": "亿丰成立于19XX年,我们玫立于XXXXX,同时XXXXXXXXX"
     },
     "contact-us-page": {
-        "Address": "地址:香港大屿山香港迪士尼乐园度假区",
-        "Tel": "电话:12345678",
+        "Address": "地址:新界葵富路7-11号葵涌广场地下A70a",
+        "Tel": "电话: 2771-1290",
         "Times": "营业时间:",
         "Facebook": "Facebook",
-        "Whatsapp": "whatsapp"
+        "Whatsapp": "66180058"
     }
 }

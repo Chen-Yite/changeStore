@@ -134,14 +134,6 @@ export default {
 </script>
 <style scoped>
 
-@media screen and (max-width: 991px)
-.sidebar-collapse .navbar-collapse:before {
-    background: #000 !important;
-    background: -webkit-gradient(linear, left top, left bottom, from(#000), color-stop(80%, #000)) !important;
-    background: linear-gradient(#000 0%, #000 80%) !important;
-}
-
-
 .navbar-collapse .collapse .show {
   background-color: #000 !important;
 }
