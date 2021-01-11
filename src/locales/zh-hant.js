@@ -68,10 +68,10 @@ export default {
         "L1": "億豐成立於19XX年,我們玫立於XXXXX,同時XXXXXXXXX"
     },
     "contact-us-page": {
-        "Address": "地址:香港大嶼山香港迪士尼樂園度假區",
-        "Tel": "電話:12345678",
-        "Times": "營業時間:",
+        "Address": "地址:新界葵富路7-11號葵涌廣場地下A70a",
+        "Tel": "電話: 2771-1290",
+        "Times": "營業時間: ",
         "Facebook": "Facebook",
-        "Whatsapp": "whatsapp"
+        "Whatsapp": "66180058"
     }
 } 
