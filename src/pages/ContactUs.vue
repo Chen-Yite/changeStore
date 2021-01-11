@@ -22,7 +22,7 @@
               <p>{{ $t('contact-us-page.Address') }}</p>
               <p>{{ $t('contact-us-page.Tel') }}</p>
               <p>{{ $t('contact-us-page.Times') }}:</p>
-              <p>{{ $t('contact-us-page.Facebook') }}</P>
+              <p>{{ $t('contact-us-page.Facebook') }}</p>
               <p>{{ $t('contact-us-page.Whatsapp') }}</p>
             </h3>
               

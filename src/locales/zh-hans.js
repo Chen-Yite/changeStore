@@ -70,7 +70,7 @@ export default {
     "contact-us-page": {
         "Address": "地址:新界葵富路7-11号葵涌广场地下A70a",
         "Tel": "电话: 2771-1290",
-        "Times": "营业时间:",
+        "Times": "营业时间: 星期一 至 星期五： 9：00AM - 7：30PM 星期六 至 星期日 10：00AM - 6:00PM",
         "Facebook": "Facebook",
         "Whatsapp": "66180058"
     }
