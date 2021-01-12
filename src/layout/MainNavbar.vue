@@ -8,6 +8,7 @@
     <template>
       <router-link v-popover:popover1 class="navbar-brand" to="/">
         <!-- 億豐 -->
+        <img class="logo" src="img/jillion_logo.png">
         <p>{{ $t('nav.company-name') }}</p>
       </router-link>
       <!-- <el-popover
@@ -133,6 +134,11 @@ export default {
 };
 </script>
 <style scoped>
+
+.logo {
+  height: 7vh;
+  margin-right: 3px;
+}
 
 .navbar-collapse .collapse .show {
   background-color: #000 !important;

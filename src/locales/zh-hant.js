@@ -1,6 +1,6 @@
 export default {
     "nav": {
-        "company-name": "億豐",
+        "company-name": "億豐找換店",
         "home-page": "主頁",
         "business-domain": "業務範圍",
         "about-us": "關於",

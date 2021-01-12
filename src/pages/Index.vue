@@ -15,11 +15,11 @@
           <div class="text-center">
             {{ $t('landing-page.first-tab.mso-license-number') }} 11-09-00222
           </div>
-          <div class="text-center">
+          <!-- <div class="text-center">
              <a href="https://wa.link/w4ltgd" class="btn btn-primary btn-icon btn-round btn-whatsapp">
               <i class="fab fa-whatsapp"></i>
             </a>
-          </div>
+          </div> -->
         </div>
       </div>
     </div>
@@ -57,10 +57,10 @@
             <div class="col-md-6">
               <div
                 class="image-container image-left"
-                style="background-image: url('img/login.jpg')"
+                style="background-image: url('img/rmb-image.jpg')"
               >
                 <!-- First image on the left side -->
-                <p class="blockquote blockquote-primary">
+                <p class="blockquote blockquote-primary blockquote-custom">
                   {{ $t('landing-page.second-tab.small-section') }}
                   <!-- "Over the span of the satellite record, Arctic sea ice has
                   been declining significantly, while sea ice in the
@@ -70,18 +70,20 @@
                   <small>-NOAA</small> -->
                 </p>
               </div>
+              <!-- <br>  -->
               <!-- Second image on the left side of the article -->
               <div
                 class="image-container"
-                style="background-image: url('img/bg3.jpg')"
+                style="margin-left:1vw; margin-bottom: 2vh; background-image: url('img/all_currency_image.jpeg')"
               ></div>
             </div>
             <div class="col-md-5">
               <!-- First image on the right side, above the article -->
               <div
                 class="image-container image-right"
-                style="background-image: url('img/bg1.jpg')"
+                style="background-image: url('img/all_currency_image_2.jpg')"
               ></div>
+              <br>
               <h3>
                 {{ $t('landing-page.second-tab.second-paragraph-title') }}
                 <!-- 找換店位置方便，在葵涌廣場地下，地鐵站B2 出口右轉斜對。 -->
@@ -144,6 +146,11 @@ export default {
     background-color: #dcdcdc;
   }
   
+  .blockquote-custom {
+    width: 350px;
+    height: 40vh;
+  }
+
   .btn-whatsapp {
     background-color: #24CD63 !important;
   }

@@ -3,7 +3,7 @@
     <div class="page-header page-header-small">
       <parallax
         class="page-header-image"
-        style="background-image: url('img/bg6.jpg')"
+        style="background-image: url('img/store_front_2.jpg');"
       >
       </parallax>
       <div class="content-center">
@@ -158,8 +158,8 @@
 <script>
 import { Button, FormGroupInput } from '@/components';
 export default {
-  name: 'index',
-  bodyClass: 'index-page',
+  name: 'contact_us',
+  bodyClass: 'contact-us-page',
   components: {
     [Button.name]: Button,
     [FormGroupInput.name]: FormGroupInput
