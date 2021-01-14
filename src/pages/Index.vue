@@ -150,7 +150,11 @@ export default {
   }
 };
 </script>
-<style>
+<style scoped>
+  section {
+    max-width: 100vw !important;
+  }
+
   .section-about-us {
     background-color: #dcdcdc;
   }
