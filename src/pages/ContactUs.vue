@@ -3,7 +3,7 @@
     <div class="page-header page-header-small">
       <parallax
         class="page-header-image"
-        style="background-image: url('img/bg6.jpg')"
+        style="background-image: url('img/store_front_2.jpg')"
       >
       </parallax>
       <div class="content-center">
@@ -21,7 +21,7 @@
             <p></p>
             <p class="about">{{ $t('contact-us-page.Address') }}</p>
             <p class="about">{{ $t('contact-us-page.Tel') }}</p>
-            <p class="about">{{ $t('contact-us-page.Times') }}</p>
+            <p class="about">{{ $t('contact-us-page.Times1') }}<br>{{ $t('contact-us-page.Times2') }}</p>
             <p class="about">{{ $t('contact-us-page.Whatsapp') }}
             <a href="#pablo" class="btn btn-primary btn-icon btn-round btn-whatsapp">
               <i class="fab fa-whatsapp"></i>

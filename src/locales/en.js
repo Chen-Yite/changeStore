@@ -73,7 +73,8 @@ export default {
     "contact-us-page": {
         "Address": "Address: A70a, G/F, Kwai Chung Plaza, 7-11 Kwai Fu Road, New Territories",
         "Tel": "Phone: 2771-1290",
-        "Times": "Business Hours: Monday to Friday 9:00am - 7:30pm, Saturday to Sunday 10:00am - 6:00pm",
+        "Times1": "Business Hours: Monday to Friday 9:00am - 7:30pm",
+        "Times2": "　　　　　　　　　Saturday to Sunday 10:00am - 6:00pm",
         "Facebook": "Facebook",
         "Whatsapp": "66180058"
     }
