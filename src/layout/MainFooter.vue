@@ -46,7 +46,7 @@
         </div>
         <div class="col-md-6 col-xs-12 col-sm-12">
           <div class="copyright">
-            版權所有 &copy; {{ year }}, 億豐集團有限公司留所有權利。
+            版權所有 &copy; {{ year }}, 億豐集團有限公司留所有權利
             
           </div>
         </div>

@@ -6,7 +6,7 @@
     menu-classes="ml-auto"
   >
     <template>
-      <router-link v-popover:popover1 class="navbar-brand" to="/">
+      <router-link v-popover:popover1 class="navbar-brand company-logo" to="/">
         <!-- 億豐 -->
         <img class="logo" src="img/jillion_logo.png">
         <p>{{ $t('nav.company-name') }}</p>
@@ -70,13 +70,13 @@
         class="nav-item"
       >
         <nav-link class="dropdown-item" :to="$route.name=='index'?'/':$route.name"> 
-          <a @click="changeLanguage('繁體')">繁體</a> 
+          <a class="language-options" @click="changeLanguage('繁體')">繁體</a> 
         </nav-link>
         <nav-link class="dropdown-item" :to="$route.name=='index'?'/':$route.name"> 
-          <a @click="changeLanguage('簡體')">簡體</a> 
+          <a class="language-options" @click="changeLanguage('簡體')">簡體</a> 
         </nav-link>
         <nav-link class="dropdown-item" :to="$route.name=='index'?'/':$route.name"> 
-          <a @click="changeLanguage('ENG')">ENG</a> 
+          <a class="language-options" @click="changeLanguage('ENG')">ENG</a> 
         </nav-link>
       </drop-down>
       </a>
@@ -135,6 +135,10 @@ export default {
 </script>
 <style scoped>
 
+.company-logo p {
+  font-size: 20px;
+}
+
 .logo {
   height: 7vh;
   margin-right: 3px;
@@ -145,7 +149,8 @@ export default {
 }
 
 .navbar {
-  background-color: #cec09b !important;
+  background:linear-gradient(to right, #BF953F, #FCF6BA, #B38728, #FBF5B7, #AA771C);
+  box-shadow: black 0 -60px 110px -50px inset;
 }
 
 .navbar-nav .dropdown-menu .router-link-active {
@@ -158,6 +163,10 @@ export default {
 
 .navbar .nav-link {
   color: #fff !important;
+  font-size: 1.2em !important;
+}
+
+.language-options {
   font-size: 1.2em !important;
 }
 

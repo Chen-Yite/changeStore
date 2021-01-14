@@ -73,6 +73,61 @@
     <examples-section></examples-section>
     <download-section></download-section>
   </div>
+  <!-- <div class="section section-about-us">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 ml-auto mr-auto text-center">
+            <h2 class="title"></h2>
+            <h5 class="description">
+              {{ $t('landing-page.second-tab.first-paragraph') }}
+            </h5>
+          </div>
+        </div>
+        <div class="separator separator-primary"></div>
+        <div class="section-story-overview">
+          <div class="row">
+            <div class="col-md-6">
+              <div
+                class="image-container image-left"
+                style="background-image: url('img/rmb-image.jpg')"
+              >
+                <p>
+                {{ $t('landing-page.second-tab.second-paragraph-one-text') }}
+              </p>
+                <p class="blockquote blockquote-primary blockquote-custom">
+                  {{ $t('landing-page.second-tab.small-section') }}
+                  <br />
+                  <small>-NOAA</small> 
+                </p>
+              </div>
+              <div
+                class="image-container"
+                style="margin-left:1vw; margin-bottom: 2vh; background-image: url('img/all_currency_image.jpeg')"
+              ></div>
+            </div>
+            <div class="col-md-5">
+              <div
+                class="image-container image-right"
+                style="background-image: url('img/all_currency_image_2.jpg')"
+              ></div>
+              <br>
+              <h3 style="font-size: 27px;">
+                {{ $t('landing-page.second-tab.second-paragraph-title') }}
+              </h3>
+              <p>
+                {{ $t('landing-page.second-tab.second-paragraph-one-text') }}
+              </p>
+              <p>
+                {{ $t('landing-page.second-tab.second-paragraph-two-text') }}
+              </p>
+              <p>
+                {{ $t('landing-page.second-tab.second-paragraph-three-text') }}
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> -->
 </template>
 <script>
 import { Parallax } from '@/components';

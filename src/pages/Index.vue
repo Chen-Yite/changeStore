@@ -6,7 +6,7 @@
         style="background-image: url('img/jillion_shop_front.jpg')"
       >
       </parallax>
-      <div class="content-center">
+      <div class="first-tab content-center">
         <div class="container">
           <h1 class="title">
             <!-- 億豐找換店，人民幣港幣找換 -->
@@ -23,105 +23,114 @@
         </div>
       </div>
     </div>
-    <div class="section section-about-us">
+    <section class="intro-paragraph bg-light text-center">
       <div class="container">
         <div class="row">
-          <div class="col-md-8 ml-auto mr-auto text-center">
-            <div class="text-center money-exchange-logos">
-              <div class="logo-left">
-                <img src="../assets/img/HongKongCustoms.svg" style="width: 55px; height55px;" />
-                <div>
-                  {{ $t('landing-page.second-tab.license') }}
-                  <!-- 金錢服務經營者牌照 -->
-                </div>
-              </div>
-              <div class="logo-right">
-                <img src="../assets/img/HongKongCustoms.svg" style="width: 55px; height55px;" />
-                <div>MSO</div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-8 ml-auto mr-auto text-center">
-            <h2 class="title"></h2>
-            <h5 class="description">
+          <div class="second-tab col-md-8 ml-auto mr-auto text-center">
+            <h5 class="second-tab-inner description">
               {{ $t('landing-page.second-tab.first-paragraph') }}
-              <!-- 億豐找換竭誠為你服務。找換店設於葵芳廣場，全力為客戶提供可靠人民幣兌換服務。緊貼最新匯價，精益求精！ -->
             </h5>
           </div>
         </div>
-        <div class="separator separator-primary"></div>
-        <div class="section-story-overview">
-          <div class="row">
-            <div class="col-md-6">
-              <div
-                class="image-container image-left"
-                style="background-image: url('img/rmb-image.jpg')"
-              >
-                <!-- First image on the left side -->
-                <p class="blockquote blockquote-primary blockquote-custom">
-                  {{ $t('landing-page.second-tab.small-section') }}
-                  <!-- "Over the span of the satellite record, Arctic sea ice has
-                  been declining significantly, while sea ice in the
-                  Antarctichas increased very slightly" -->
-                  <!-- <br />
-                  <br />
-                  <small>-NOAA</small> -->
-                </p>
+      </div>
+    </section>
+    <section class="third-tab features-icons text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3 third-tab-inner">
+              <div class="features-icons-icon d-flex">
+                <i class="icon-screen-desktop m-auto text-primary"></i>
               </div>
-              <!-- <br>  -->
-              <!-- Second image on the left side of the article -->
-              <div
-                class="image-container"
-                style="margin-left:1vw; margin-bottom: 2vh; background-image: url('img/all_currency_image.jpeg')"
-              ></div>
+              <p class="lead mb-0">
+                <img src="img/fast_logo.png" style="width: 75px; height: 75px;" />
+              </p>
+              <h3>滙款方便</h3>
             </div>
-            <div class="col-md-5">
-              <!-- First image on the right side, above the article -->
-              <div
-                class="image-container image-right"
-                style="background-image: url('img/all_currency_image_2.jpg')"
-              ></div>
-              <br>
-              <h3>
-                {{ $t('landing-page.second-tab.second-paragraph-title') }}
-                <!-- 找換店位置方便，在葵涌廣場地下，地鐵站B2 出口右轉斜對。 -->
-              </h3>
-              <p>
-                {{ $t('landing-page.second-tab.second-paragraph-one-text') }}
-                <!-- The Arctic Ocean freezes every winter and much of the sea-ice
-                then thaws every summer, and that process will continue whatever
-                happens with climate change. Even if the Arctic continues to be
-                one of the fastest-warming regions of the world, it will always
-                be plunged into bitterly cold polar dark every winter. And
-                year-by-year, for all kinds of natural reasons, there’s huge
-                variety of the state of the ice. -->
+          </div>
+          <div class="col-lg-4">
+            <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3 third-tab-inner">
+              <div class="features-icons-icon d-flex">
+                <i class="icon-layers m-auto text-primary"></i>
+              </div>
+              <p class="lead mb-0">
+                <img src="img/custom_logo.svg" style="width: 75px; height: 85px;" />
               </p>
-              <p>
-                {{ $t('landing-page.second-tab.second-paragraph-two-text') }}
-                <!-- For a start, it does not automatically follow that a record
-                amount of ice will melt this summer. More important for
-                determining the size of the annual thaw is the state of the
-                weather as the midnight sun approaches and temperatures rise.
-                But over the more than 30 years of satellite records, scientists
-                have observed a clear pattern of decline, decade-by-decade. -->
+              <h3>MSO牌照</h3>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="features-icons-item mx-auto mb-0 mb-lg-3 third-tab-inner">
+              <div class="features-icons-icon d-flex">
+                <i class="icon-check m-auto text-primary"></i>
+              </div>
+              <p class="lead mb-0">
+                <img src="img/reliable_logo.png" style="width: 75px; height: 75px;" />
               </p>
-              <p>
-                {{ $t('landing-page.second-tab.second-paragraph-three-text') }}
-                <!-- The Arctic Ocean freezes every winter and much of the sea-ice
-                then thaws every summer, and that process will continue whatever
-                happens with climate change. Even if the Arctic continues to be
-                one of the fastest-warming regions of the world, it will always
-                be plunged into bitterly cold polar dark every winter. And
-                year-by-year, for all kinds of natural reasons, there’s huge
-                variety of the state of the ice. -->
-              </p>
+              <h3>效率特高</h3>
             </div>
           </div>
         </div>
       </div>
-    </div>
+    </section>
+
+    <!-- Image Showcases -->
+    <section class="fourth-tab showcase">
+      <div class="container-fluid p-0">
+        <div class="row no-gutters">
+
+          <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('img/rmb-image.jpg');"></div>
+          <div class="col-lg-6 order-lg-1 my-auto showcase-text">
+            <h2>直接銀行帳戶匯款</h2>
+            <p class="lead mb-0">我們擁有MSO牌照，找換店有自己設立的銀行帳户可以直接過錢去你户口，流程快捷簡單</p>
+          </div>
+        </div>
+        <div class="row no-gutters">
+          <div class="col-lg-6 text-white showcase-img" style="background-image: url('img/all_currency_image_2.jpg');"></div>
+          <div class="col-lg-6 my-auto showcase-text">
+            <h2>誠信可靠</h2>
+            <p class="lead mb-0">每一位客戶都是我們的珍貴財產，我們是用心去對待每一位客户，用我們最大真誠的態度去協助客户解決他們的需求</p>
+          </div>
+        </div>
+        <div class="row no-gutters">
+          <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('img/shopping_mall_outside.png');"></div>
+          <div class="col-lg-6 order-lg-1 my-auto showcase-text">
+            <h2>位置方便</h2>
+            <p class="lead mb-0">找換店位於葵涌廣場地下，地鐵站B2出口，客人只需在B2出口步行5分鐘即可到達本店</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Testimonials -->
+    <section class="fifth-tab testimonials text-center bg-light">
+      <div class="testimonials-inner container">
+        <h2 class="mb-5">客户評價</h2>
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+              <img class="img-fluid rounded-circle mb-3" src="img/testimonials-1.jpg" alt="">
+              <h5>Json Law</h5>
+              <p class="font-weight-light mb-0">"億豐真的很方便，服務態度很好，又快捷，不用半天就能把錢匯到國內。客服也很有心的解答我任何的疑惑"</p>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+              <img class="img-fluid rounded-circle mb-3" src="img/testimonials-2.jpg" alt="">
+              <h5>Fred Siu</h5>
+              <p class="font-weight-light mb-0">"我是從事貿易的，經常要將錢滙出滙入中國，億豐是我做滙款的首選，億豐滙款快捷，一天內就可以將錢滙到國內"</p>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+              <img class="img-fluid rounded-circle mb-3" src="img/testimonials-3.jpg" alt="">
+              <h5>Sarah Kwok</h5>
+              <p class="font-weight-light mb-0">"之前過年時通過億豐找換了人民幣，到店舖時員工的服務態度很好，我打電話去資詢時他們用心去解答我的每一個問題，提供的資訊詳盡，找換的較率快捷"</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
   </div>
 </template>
 <script>
@@ -161,5 +170,67 @@ export default {
 
   .logo-left {
     margin-right: 4vw;
+  }
+
+  .first-tab {
+    padding: 12vh 0;
+  }
+
+  .second-tab {
+    padding: 15vh;
+  }
+
+
+  @media only screen and (min-width: 600px) {
+    .third-tab {
+      height: 45vh;
+    }
+  }
+
+  .third-tab {
+    background-color: #e6d8ac;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .third-tab-inner {
+      padding: 8vh 0!important;
+    }
+  }
+
+  .third-tab-inner {
+    padding: 15vh 0;
+  }
+
+  @media only screen and (min-width: 600px) {
+    .fifth-tab {
+      height: 45vh;
+    }
+  }
+
+  .testimonials-inner {
+    padding: 3vh 0;
+  }
+
+  .showcase-img {
+    height: 45vh;
+  }
+
+  .showcase-img img {
+    height: 65vh;
+    width: 50vw;
+  }
+
+  .showcase-text {
+    height: 45vh;
+    padding: 20px;
+  }
+
+  .showcase-text h2 {
+    padding: 0 25px;
+  }
+
+  .showcase-text p {
+    font-size: 18px;
+    padding: 0 25px;
   }
 </style>
