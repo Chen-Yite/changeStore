@@ -172,7 +172,7 @@ export default {
   }
 };
 </script>
-<style>
+<style scoped>
   .btn-whatsapp {
     background-color: #24CD63 !important;
   }
