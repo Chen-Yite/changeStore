@@ -23,10 +23,10 @@
         </div>
       </div>
     </div>
-    <section class="intro-paragraph bg-light text-center">
+    <section class="second-tab intro-paragraph bg-light text-center">
       <div class="container">
         <div class="row">
-          <div class="second-tab col-md-10 col-xs-10 ml-auto mr-auto text-center">
+          <div class="col-md-10 col-xs-10 ml-auto mr-auto text-center">
             <h5 class="px-auto second-tab-inner description">
               {{ $t('landing-page.second-tab.first-paragraph') }}
             </h5>
@@ -34,11 +34,23 @@
         </div>
       </div>
     </section>
-    <section class="third-tab features-icons text-center">
+    <section class="third-tab three-sixty-camera text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-10 col-xs-10 ml-auto mr-auto text-center">
+            <h5 class="px-auto third-tab-inner description">
+              <!--  360 camera URL -->
+              qwer weqweqwxwxw
+            </h5>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="fourth-tab features-icons text-center bg-light">
       <div class="container">
         <div class="row">
           <div class="col-lg-4">
-            <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3 third-tab-inner">
+            <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3 fourth-tab-inner">
               <div class="features-icons-icon d-flex">
                 <i class="icon-screen-desktop m-auto text-primary"></i>
               </div>
@@ -49,7 +61,7 @@
             </div>
           </div>
           <div class="col-lg-4">
-            <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3 third-tab-inner">
+            <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3 fourth-tab-inner">
               <div class="features-icons-icon d-flex">
                 <i class="icon-layers m-auto text-primary"></i>
               </div>
@@ -60,7 +72,7 @@
             </div>
           </div>
           <div class="col-lg-4">
-            <div class="features-icons-item mx-auto mb-0 mb-lg-3 third-tab-inner">
+            <div class="features-icons-item mx-auto mb-0 mb-lg-3 fourth-tab-inner">
               <div class="features-icons-icon d-flex">
                 <i class="icon-check m-auto text-primary"></i>
               </div>
@@ -130,7 +142,6 @@
         </div>
       </div>
     </section>
-    
   </div>
 </template>
 <script>
@@ -181,6 +192,11 @@ export default {
   }
 
   .second-tab-inner {
+    padding-top: 15vh;
+    padding-bottom: 15vh;
+  }
+
+  .fourth-tab-inner {
     padding-top: 15vh;
     padding-bottom: 15vh;
   }
